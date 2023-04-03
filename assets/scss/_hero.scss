@@ -1,0 +1,90 @@
+.hero {
+    display: flex;
+    width: 600px;
+    min-height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    @media (max-width:768px) {
+        width: 343px;
+        flex-direction: column;
+    }
+
+    &__image {
+        width: 50%;
+        content: url('/assets/images/image-product-desktop.jpg');
+        @media (max-width:768px) {
+            height: 240px;
+            width: 100%;
+            content: url('/assets/images/image-product-mobile.jpg');
+            
+        }
+    }
+
+    &__content {
+        padding: 35px 32px;
+        background-color: hsl(0, 0%, 100%);
+        @media (max-width:768px) {
+            padding: 25px 27px;
+            
+        }
+
+        &__tag {
+            font-size: 9px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+            //    font-family: 'Fraunces', serif;
+        }
+
+        h1 {
+            margin-top: 28px;
+            font-size: 2rem;
+            color: hsl(212, 21%, 14%);
+            font-family: 'Fraunces', serif;
+        }
+
+        &__about {
+            line-height: 1.5;
+            word-spacing: 3px;
+            margin-top: 34px;
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            color: hsl(228, 12%, 48%);
+
+        }
+        &__price {
+            margin-top: 37px;
+            //  align-items: center;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span {
+                font-size: 2rem;
+                font-family: 'Fraunces', serif;
+                color: hsl(158, 36%, 37%);
+                text-align: center;
+            } 
+            s{
+                color: hsl(228, 12%, 48%);
+            }  
+        }
+        button{
+            margin-top: 32px;
+            width: 100%;
+            height: 50px;
+            background-color: hsl(158, 36%, 37%);
+            border-radius: 10px;
+            border: none;
+            color: white;
+            &:hover{
+                background-color:#1A4031;
+
+
+            }
+        }
+
+
+    }
+
+}
