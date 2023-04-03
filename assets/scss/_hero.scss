@@ -11,11 +11,11 @@
 
     &__image {
         width: 50%;
-        content: url('/assets/images/image-product-desktop.jpg');
+        content: url('../assets/images/image-product-desktop.jpg');
         @media (max-width:768px) {
             height: 240px;
             width: 100%;
-            content: url('/assets/images/image-product-mobile.jpg');
+            content: url('../assets/images/image-product-mobile.jpg');
             
         }
     }
