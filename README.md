@@ -26,8 +26,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ![Mobile View](./assets/screenshot/127.0.0.1_5500_%20(3).png)
 
 ### Links
-- Solution URL: [View Code](https://your-solution-url.com)
-- Live Site URL: [Preview](https://your-live-site-url.com)
+- Solution URL: [View Code](https://github.com/VishalMauryastp/product-preview-card-component-main.git)
+- Live Site URL: [Preview](https://vishalmauryastp.github.io/product-preview-card-component-main/)
 
 ## My process
 
